@@ -80,7 +80,7 @@ class MenuBar extends Component {
         )
       } )
   }
-render() {
+  render() {
     const { classes, drawerOpen, menuOptions } = this.props
     return (
       <div className={classes.list}>
@@ -98,7 +98,7 @@ render() {
                 disableGutters
               >
                 <ListItemText
-                className={ classes.menuHeader }
+                  className={ classes.menuHeader }
                   inset
                   primary="Nested Menu"
                 />
