@@ -21,7 +21,7 @@ const styles = {
     paddingLeft: '30px'
   }
 };
-
+// Adding comment for testing
 class MenuBar extends Component {
   constructor( props ) {
     super( props )
